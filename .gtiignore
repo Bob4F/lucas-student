@@ -1,0 +1,6 @@
+### Intellij IDEA 忽略idea的文件 ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.xml
