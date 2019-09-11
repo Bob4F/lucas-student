@@ -1,14 +1,4 @@
+# 引入其他配置文件
 spring:
-  redis:
-    database: 0
-    password: sunfounder
-    host: 47.92.86.79 # 连接地址
-    port: 6379 # 默认连接端口
-    timeout: 100
-    jedis:
-      pool:
-        max-active: 20 # 最大连接
-        max-idle: 8    # 最大空闲连接
-        min-idle: 1    # 最小空闲连接
-
-
+  profiles:
+    include: redis
