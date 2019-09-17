@@ -1,7 +1,6 @@
 package github.lucas.redis.distributed.jedis;
 
 import org.springframework.stereotype.Component;
-import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
@@ -14,9 +13,8 @@ import redis.clients.jedis.JedisPoolConfig;
 @Component
 public class RedisContent {
 
+    // 连接池
     public JedisPool jedisPool =null;
-
-    public Jedis jedis = null;
 
     /**
      * 无参：初始化参数
@@ -30,12 +28,14 @@ public class RedisContent {
             config.setMaxIdle(20);
             // 一个redis最大可用时间，过时销毁实例
             config.setMaxWaitMillis(10000*60);
-
             config.setTestOnBorrow(true);
             jedisPool = new JedisPool(config, "47.92.86.79", 6379, 10000, "sunfounder");
         } catch (Exception e){
             e.printStackTrace();
         }
     }
+
+
+
 
 }
