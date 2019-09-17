@@ -5,6 +5,5 @@ Spring Boot 集成 Redis和 jedis
 
 ## project list
 +  redis-distributed：  
-     + redis 实现分布式锁
-     + Springboot 集成 redis  
+     + redis(Jedis框架) 实现分布式锁
      
