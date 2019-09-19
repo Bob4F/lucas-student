@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/redis-distributed-lock/pom.xml" />
         <option value="$PROJECT_DIR$/redis-distributed/pom.xml" />
+        <option value="$PROJECT_DIR$/io/pom.xml" />
       </list>
     </option>
   </component>
