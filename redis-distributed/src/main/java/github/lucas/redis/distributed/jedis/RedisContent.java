@@ -29,7 +29,7 @@ public class RedisContent {
             // 一个redis最大可用时间，过时销毁实例
             config.setMaxWaitMillis(10000*60);
             config.setTestOnBorrow(true);
-            jedisPool = new JedisPool(config, "47.92.86.79", 6379, 10000, "sunfounder");
+            jedisPool = new JedisPool(config, "127.0.0.1", 6379, 10000, "sunfounder");
         } catch (Exception e){
             e.printStackTrace();
         }

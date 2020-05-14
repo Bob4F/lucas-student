@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/io/io.iml" filepath="$PROJECT_DIR$/io/io.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/lucas-student.iml" filepath="$PROJECT_DIR$/.idea/lucas-student.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-distributed/redis-distributed.iml" filepath="$PROJECT_DIR$/redis-distributed/redis-distributed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis-distributed/redis-distributed-lock.iml" filepath="$PROJECT_DIR$/redis-distributed/redis-distributed-lock.iml" />
     </modules>
   </component>
 </project>
